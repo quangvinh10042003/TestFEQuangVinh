@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+
+/* style section 1  */
+
+.sec1 {
+    background-color: #FFFDF4;
+    padding: 70px 0px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.top p {
+    width: 35%;
+}
+
+.oldPrice {
+    color: #72776C;
+    font-size: 13px;
+    text-decoration: line-through;
+    vertical-align: middle;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px 10px;
+}
+
+.week {
+    font-size: 15px;
+    width: 75px;
+    /* padding-right: 20px; */
+}
+
+.textweek {
+    font-size: 14px;
+    width: calc(100% - 86px);
+}
+
+.time p {
+    padding: 12px 0px;
+    border-top: 1px solid #ECEDEC;
+}
+
+.time .row p {
+    margin-bottom: 0;
+}
+
+.time .row:last-child {
+    border-bottom: 1px solid #ECEDEC;
+}
+
+
+/* style section 2  */
+
+.sect2 .container {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.sect2 img {
+    border-radius: 20px;
+}
+
+.sect2 .textBox .tit {
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.quote i {
+    margin-top: 30px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.say {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.artist {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1100px) {
+    .top p {
+        width: 50%;
+    }
+    .quote i {
+        margin-top: 0px;
+    }
+    .say {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .top p {
+        width: 70%;
+    }
+    .tit {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top p {
+        width: 100%;
+    }
+    .say {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .quote i {
+        font-size: 40px;
+    }
+}
